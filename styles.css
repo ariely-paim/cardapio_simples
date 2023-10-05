@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
 
-/*---------------VARIAVEIS CSS-------------------*/
+/*--variáveis--*/
 :root {
     --header-height: 4.5rem;
 
-    /*---------------PALETA DE CORES-------------------*/
+    /*--cores--*/
     --first-color: #03989E;
     --first-color_alt: #03989E;
     --first-color_alt_light: #03989E;
@@ -13,7 +13,7 @@
     --body-color: #ffffff;
     --container-color: #CDEEEF;
 
-    /*---------------FONTES DO SITE-------------------*/
+    /*--fontes do site--*/
     --body-font: 'Montserrat', sans-serif;
     --font-logo: 'Montserrat', sans-serif;
     --big-font-size: 2rem;
@@ -23,12 +23,12 @@
     --normal-font-size: 0.935rem;
     --small-font-size: 0.812rem;
 
-    /*---------------FONT WEIGHT-------------------*/
+    /*--font weight--*/
     --font-light: 300;
     --font-medium: 400;
     --font-bold: 700;
 
-    /*---------------MARGENS DO SITE-------------------*/
+    /*--margens--*/
     --mb-1: 0.5rem;
     --mb-2: 1rem;
     --mb-3: 1.5rem;
@@ -36,12 +36,12 @@
     --mb-5: 2.5rem;
     --mb-6: 3rem;
 
-    /*---------------Z INDEXS-------------------*/
+    /*--z index--*/
     --Z-fixed: 100;
     --z-tooltip: 10;
 }
 
-/*---------------BASE DO SITE-------------------*/
+/*--css geral--*/
 *,
 ::before,
 ::after {
@@ -76,7 +76,7 @@ img {
     height: auto;
 }
 
-/*---------------BUTTONS DO SITE-------------------*/
+/*--botãos--*/
 .btn {
     width: 100%;
     background: #03989E;
@@ -124,7 +124,7 @@ img {
     color: var(--light-color);
 }
 
-/*---------------CSS DO SITE-------------------*/
+/*--sections--*/
 .section {
     padding: 4rem 0 2rem;
 }
@@ -159,7 +159,7 @@ img {
     margin-bottom: var(--mb-2);
 }
 
-/*---------------LAYOUT DO SITE-------------------*/
+/*--layout--*/
 
 .bd-container {
     max-width: 1024px;
@@ -185,7 +185,7 @@ img {
     background-color: var(--container-color);
 }
 
-/*-----------NAV DO SITE---------------*/
+/*--navbar--*/
 .nav{
     max-width: 1024px;
     height: var(--header-height);
@@ -240,7 +240,7 @@ img {
     color: var(--container-color);
 }
 
-/*-------------HOME DO SITE---------------*/
+/*--home--*/
 .home__container {
     padding: 10rem 2rem;
 }
@@ -279,7 +279,7 @@ img {
     margin-bottom: 1rem;
 }
 
-/*------------SOBRE O SITE---------------*/
+/*--sobre--*/
 .about__container {
     padding: 0 2rem;
 }
@@ -322,7 +322,7 @@ img {
     line-height: 32px;
 }
 
-/*----------PRODUTOS_O CARDÁPIO DO SITE------------*/
+/*--produtos do cardapio--*/
 .cardapio__container {
     padding: 1rem 4rem;
 }
@@ -399,106 +399,7 @@ img {
     background-color: var(--first-color_alt);
 }
 
-/*----------DELIVERY DO SITE-----------*/
-.delivery {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-image: url(imgs/fundo/bolo2.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.delivery__container {
-    border: 1px solid rgba(255, 255, 255, 0.7);
-    border-radius: 6px;
-    padding: 1rem;
-}
-.delivery__data h1{
-    margin: 0;
-}
-
-.delivery__data {
-    display: flex;
-    flex-direction: column;
-    border-radius: 6px;
-    background-color: rgba(255, 255, 255, 0.7);
-    padding: 2rem;
-}
-
-.delivery__data a {
-    width: 50%;
-    margin-top: var(--mb-3);
-    letter-spacing: 3px;
-}
-
-/*----------CONTATOS DO SITE---------*/
-.contato__container {
-    padding: 1rem 2rem;
-}
-
-.contato__cta {
-    margin-bottom: var(--mb-3);
-    text-align: center;
-}
-
-.contato__title {
-    font-weight: var(--font-bold);
-    font-size: var(--h2-font-size);
-    margin-bottom: var(--mb-2);
-}
-
-.contato__cta p {
-    font-weight: var(--normal-font-size);
-    font-size: var(--h3-font-size);
-    line-height: 28px;
-    margin-bottom: var(--mb-2);
-}
-
-.contato__cta a {
-    margin-bottom: var(--mb-2);
-}
-
-.contato__form .contato__title {
-    text-align: center;
-}
-
-.form-control {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-}
-
-.form-control label {
-    font-size: var(--small-font-size);
-}
-
-.form-control input,
-textarea {
-    font-size: var(--normal-font-size);
-    padding: 0.5rem 1rem;
-    border-radius: 6px;
-    background: #ffffff;
-    border: 2px solid #03989E;
-    margin-bottom: var(--mb-2);
-}
-
-.form-control textarea {
-    resize: none;
-    outline: none;
-    margin-bottom: var(--mb-6);
-}
-
-.form-control button {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-}
-
-
-/*--------------FOOTER O SITE-----------------*/
+/*--footer--*/
 .footer__container {
     display: flex;
     justify-content: center;
