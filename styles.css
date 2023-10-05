@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
 /*---------------VARIAVEIS CSS-------------------*/
 :root {
     --header-height: 4.5rem;
@@ -12,8 +14,8 @@
     --container-color: #CDEEEF;
 
     /*---------------FONTES DO SITE-------------------*/
-    --body-font: "Georgia", sans-serif;
-    --font-logo: "Georgia", sans-serif;
+    --body-font: 'Montserrat', sans-serif;
+    --font-logo: 'Montserrat', sans-serif;
     --big-font-size: 2rem;
     --h1-font-size: 1.5rem;
     --h2-font-size: 1.25rem;
@@ -191,39 +193,6 @@ img {
     justify-content: space-between;
     align-items: center;
     padding: 3rem 0;
-}
-
-@media (max-width: 960px){
-    .nav__menu {
-        position: absolute;
-        top: 0;
-        right: 100%;
-        width: 50%;
-        height: 100%;
-        text-align: right;
-        padding: 0 2rem;
-        background-color: var(--container-color);
-        border-radius: 150px 0 0 0;
-        box-shadow: -10px -8px 4px rgba(0, 0, 0, 0.1);
-        z-index: var(--z-tooltip);
-        transition: all 0.4s ease-in-out;
-    }
-
-    .nav__menu .logo{
-        padding-left: 4rem;
-    }
-
-    .nav__menu .nav__item {
-        margin-bottom: var(--mb-2);
-    }
-    
-    .nav__menu .nav__item:first-child {
-        margin-top: 8rem;
-    }
-
-    .show-menu {
-        right: 0;
-    }
 }
 
 .logo{
